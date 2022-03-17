@@ -17,12 +17,12 @@ export default function () {
     <Container>
     <Navbar.Brand ><img src={logo}  /></Navbar.Brand>
     <Nav className="justify-content-end" >
-    <Link to='/Report'>
+    <Link to='/ExamineMain/Report'>
     
     <Nav.Link style={navstyle}  href="#Report"  >  محضر لجنه فحص <img src={logo2}  /></Nav.Link>
      </Link>
    
-     <Link to='/RefundsDashboard'>
+     <Link to='/ExamineMain/RefundsDashboard'>
     
      <Nav.Link style={navstyle} href="#RefundsDashboard"  > اظهار المستردات <img src={refund}  /></Nav.Link>
      </Link>

@@ -11,7 +11,7 @@ function TableTemp({item}) {
   
   <tr class=" d-flex flex-row-reverse" >
       <td class="p-2 col px-1">
-      <Link to={`/item/${item.id}/${item.Name}`}>{item.id}</Link>
+      <Link to={`/ExamineMain/item/${item.id}/${item.Name}`}>{item.id}</Link>
       </td>
       <td class="p-2 col px-1">{item.Name}</td>
       <td class="p-2 col px-1">-</td>

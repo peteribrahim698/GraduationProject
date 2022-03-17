@@ -33,7 +33,7 @@ export default function DashboardItem({item}) {
   <Col sm m lg="9">
 
   
-  <Link to={`/RefundTable/${item.id}`}><Button type="submit" style={{float:'left',backgroundColor:"whitesmoke",color:'black'
+  <Link to={`/ExamineMain/RefundTable/${item.id}`}><Button type="submit" style={{float:'left',backgroundColor:"whitesmoke",color:'black'
     }}>اظهار تفاصيل الطلب</Button></Link>
     
     </Col>

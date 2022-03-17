@@ -53,7 +53,7 @@ function Item() {
 
   <Row style={rowstyle}>
   
-  <Col> <Link to="/RefundTable/1          "><img src={logo4} style={{width:"15%"}} /></Link>
+  <Col> <Link to="/ExamineMain/RefundTable/1          "><img src={logo4} style={{width:"15%"}} /></Link>
 </Col>
 
 <Col> 
