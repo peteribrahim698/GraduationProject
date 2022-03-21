@@ -38,14 +38,14 @@ function AdminNavBar() {
         <Link to=""><NavDropdown.Item style={dropnavbar} eventKey="4.3">عنصر</NavDropdown.Item></Link>
       </NavDropdown> <NavLink><img src={logo3}  /></NavLink>
       
-    <Link to=''>
+    <Link to='/WareHouses'>
     
-    <Nav.Link style={navstyle}  href="#"  >  المخازن المتاحه <img src={logo2}  /></Nav.Link>
+    <Nav.Link style={navstyle}  href="#WareHouses"  >  المخازن المتاحه <img src={logo2}  /></Nav.Link>
      </Link>
    
-     <Link to=''>
+     <Link to='/itemslist'>
     
-     <Nav.Link style={navstyle} href="#"  > اضافه صنف  <img src={logo1}  /></Nav.Link>
+     <Nav.Link style={navstyle} href="#itemslist" > اضافه صنف  <img src={logo1}  /></Nav.Link>
      </Link>
    
      
