@@ -30,9 +30,7 @@ function NewItem() {
   
       </Col>
   
-      <Col> <Form.Label ><h3>الحاله</h3></Form.Label>
-      <h2>100%</h2>
-      </Col>
+    
   
       <Col> <Form.Label ><h3>السعر</h3></Form.Label>
       <Form.Control type="text" placeholder="" />
@@ -53,7 +51,7 @@ function NewItem() {
   
     <Row style={rowstyle}>
     
-    <Col><Button type='submit'><img src={logo4} style={{width:"15%"}} /></Button> 
+    <Col><button type='submit' style={{backgroundColor:"white",marginTop:"6%",borderColor:"white",borderStyle:"none" }}><img src={logo4} style={{width:"100%",backgroundColor:"white",marginTop:"5%",}} /></button> 
   </Col>
   
   <Col> 

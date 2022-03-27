@@ -17,8 +17,8 @@ import LIstOfItems from "./pages/Admin/LIstOfItems"
 import itemsList from "./data/itemsList"
 import WareHousesDashboard from "./pages/Admin/WareHousesDashboard"
 import NewItem from "./components/NewItem"
-import Wtest from "./components/Wtest"
-
+import WHItems from "./pages/Admin/WHItems"
+import NewWarehouse from "./components/NewWarehouse"
 
 function App(){
     
@@ -95,9 +95,13 @@ function App(){
 
         <Route path="/WareHouses/:id" element={
         
-        <Wtest></Wtest>    
+           <WHItems aylist={il}></WHItems>
         }></Route>
 
+        <Route path="/NewWarehouse" element={
+        
+            <NewWarehouse></NewWarehouse>
+        }></Route>
 
         
           </Routes>

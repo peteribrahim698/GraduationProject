@@ -13,7 +13,7 @@ function Item() {
     marginTop:"5%"
   }
   return (<>
-  <NavBar></NavBar>
+ 
   <Container fluid="md">
   <Row style={rowstyle}>
     <Col fluid>
@@ -22,7 +22,7 @@ function Item() {
     <Col style={{textAlign:'center'}}>
     <Row fluid>
     <Col> <Form.Label ><h3>الوحده</h3></Form.Label>
-    <h2>          </h2>
+    <h4>          قطعه      </h4>
     </Col>
  
     <Col> <Form.Label ><h3>اسم الصنف</h3></Form.Label>
@@ -53,7 +53,7 @@ function Item() {
 
   <Row style={rowstyle}>
   
-  <Col> <Button type='submit'><img src={logo4} style={{width:"15%"}} /></Button> 
+  <Col><button type='submit' style={{backgroundColor:"white",marginTop:"6%",borderColor:"white",borderStyle:"none" }}><img src={logo4} style={{width:"100%",backgroundColor:"white",marginTop:"5%",}} /></button> 
 </Col>
 
 <Col> 
