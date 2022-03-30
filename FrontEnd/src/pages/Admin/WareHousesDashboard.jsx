@@ -18,7 +18,7 @@ function WareHousesDashboard({WH}) {
         return <WareHouse key={item.id} item={item}></WareHouse>
        })}
 
-       <Link to="/NewWarehouse"><Button style={{marginTop:"5%",marginLeft:"10%"}}>اضافه مخزن جديد</Button></Link>
+       <Link to="/Admin/NewWarehouse"><Button style={{marginTop:"5%",marginLeft:"10%"}}>اضافه مخزن جديد</Button></Link>
   </>
   
   )

@@ -26,27 +26,39 @@ function AdminNavBar() {
     <Navbar.Brand ><img src={logo}  /></Navbar.Brand>
     <Nav className="justify-content-end" >
 
-    <NavDropdown title="تعديل" id="nav-dropdown" style={dropnavbar}>
+    
+
+    <NavDropdown title={
+
+<span style={{color:'white'}}>تعديل</span>
+    } id="nav-dropdown" style={dropnavbar}>
         <Link to=""><NavDropdown.Item style={dropnavbar} eventKey="4.1">مستخدم</NavDropdown.Item></Link>
         <Link to=""> <NavDropdown.Item style={dropnavbar} eventKey="4.2">مخزن</NavDropdown.Item></Link>
         <Link to=""><NavDropdown.Item style={dropnavbar} eventKey="4.3">عنصر</NavDropdown.Item></Link>
       </NavDropdown> <NavLink><img src={logo4}  /></NavLink>
     
-   <NavDropdown title="اضافه" id="nav-dropdown" style={dropnavbar}>
-        <Link to=""><NavDropdown.Item style={dropnavbar} eventKey="4.1">مستخدم</NavDropdown.Item></Link>
-        <Link to=""> <NavDropdown.Item style={dropnavbar} eventKey="4.2">مخزن</NavDropdown.Item></Link>
-        <Link to=""><NavDropdown.Item style={dropnavbar} eventKey="4.3">عنصر</NavDropdown.Item></Link>
+   <NavDropdown title={
+
+<span style={{color:'white'}}>اضافه</span>
+    }
+    id="nav-dropdown" style={dropnavbar}>
+        
+        <NavDropdown.Item style={dropnavbar} eventKey="4.1"  as={Link} to="/NewUser">مستخدم</NavDropdown.Item>
+       
+        <NavDropdown.Item style={dropnavbar} eventKey="4.2" as={Link } to ="/Admin/NewWarehouse">مخزن</NavDropdown.Item>
+        <NavDropdown.Item style={dropnavbar} eventKey="4.3"  as={Link } to ="/Admin/NewItem" >عنصر</NavDropdown.Item>
       </NavDropdown> <NavLink><img src={logo3}  /></NavLink>
       
-    <Link to='/WareHouses'>
     
-    <Nav.Link style={navstyle}  href="#WareHouses"  >  المخازن المتاحه <img src={logo2}  /></Nav.Link>
-     </Link>
+    
+    <Nav.Link style={navstyle}  as={Link} to="/WareHouses" >  المخازن المتاحه <img src={logo2}  /></Nav.Link>
+    
    
-     <Link to='/itemslist'>
+     
+     
     
-     <Nav.Link style={navstyle} href="#itemslist" > اضافه صنف  <img src={logo1}  /></Nav.Link>
-     </Link>
+     <Nav.Link style={navstyle} as={Link} to="/itemslist" > اضافه صنف  <img src={logo1}  /></Nav.Link>
+     
    
      
     </Nav>

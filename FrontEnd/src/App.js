@@ -19,6 +19,7 @@ import WareHousesDashboard from "./pages/Admin/WareHousesDashboard"
 import NewItem from "./components/NewItem"
 import WHItems from "./pages/Admin/WHItems"
 import NewWarehouse from "./components/NewWarehouse"
+import NewUser from "./components/NewUser"
 
 function App(){
     
@@ -98,9 +99,15 @@ function App(){
            <WHItems aylist={il}></WHItems>
         }></Route>
 
-        <Route path="/NewWarehouse" element={
+        <Route path="/Admin/NewWarehouse" element={
         
             <NewWarehouse></NewWarehouse>
+        }></Route>
+
+
+        <Route path="/NewUser" element={
+        
+        <NewUser></NewUser>
         }></Route>
 
         
