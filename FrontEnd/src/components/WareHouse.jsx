@@ -8,7 +8,7 @@ function WareHouse({item}) {
         backgroundColor:"#448AE5",
         color:"white",
         borderRadius: "10px",
-        marginTop:"5%",
+        marginTop:"3%",
         padding:"1%"
         
 
@@ -28,7 +28,7 @@ function WareHouse({item}) {
       <Col sm m lg="9">
     
       
-      <Link to={`/WareHouses/${item.id}`}><Button type="submit" style={{float:'left',backgroundColor:"whitesmoke",color:'black'
+      <Link to={`/WareHouses/${item.id}`}><Button type="submit" style={{float:'left',backgroundColor:"white",color:'white'
         }}>اظهار التفاصيل</Button></Link>
         
         </Col>

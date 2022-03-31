@@ -7,7 +7,7 @@ function ItemRow({item}) {
         backgroundColor:"white",
         color:"black",
         borderRadius: "10px",
-        marginTop:"5%",
+        marginTop:"3%",
         padding:"1%",
         border: '5px solid #448AE5', 
     }
@@ -18,7 +18,7 @@ function ItemRow({item}) {
     <Col >
     
     
-    <Link to={`/ExamineMain/item/${item.id}/${item.Name}`}><Button type="submit" style={{float:'left',backgroundColor:"#448AE5",color:'black'
+    <Link to={`/ExamineMain/item/${item.id}/${item.Name}`}><Button type="submit" style={{float:'left',backgroundColor:"#448AE5",color:'white'
     }}>تعديل</Button></Link>
     
     </Col>

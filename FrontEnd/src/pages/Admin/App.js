@@ -23,7 +23,6 @@ import NewUser from "./components/NewUser"
 import UsersList from "./pages/Admin/UsersList"
 import UpdateUser from "./pages/Admin/UpdateUser"
 
-
 function App(){
     
     const[Data ,setData] =useState(TestData)
@@ -91,7 +90,7 @@ function App(){
             <NewItem></NewItem>
         }></Route>
 
-        <Route path="/WareHouses" element={
+        <Route path="WareHouses" element={
 
             <WareHousesDashboard WH={WHD}></WareHousesDashboard>
         }></Route>

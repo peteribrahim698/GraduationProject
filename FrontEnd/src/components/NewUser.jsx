@@ -10,7 +10,7 @@ function NewUser() {
       
     }
   return (<>
-  <AdminNavBar></AdminNavBar>
+ 
   <h1 style={{textAlign:"center",marginTop:"2%"}}>مستخدم جديد</h1>
   <Container style={{justifyContent:"centre",width:"100%",}}>
 <Form>

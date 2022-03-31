@@ -32,12 +32,12 @@ function AdminNavBar() {
 
 <span style={{color:'white'}}>تعديل</span>
     } id="nav-dropdown" style={dropnavbar}>
-        <Link to=""><NavDropdown.Item style={dropnavbar} eventKey="4.1">مستخدم</NavDropdown.Item></Link>
-        <Link to=""> <NavDropdown.Item style={dropnavbar} eventKey="4.2">مخزن</NavDropdown.Item></Link>
-        <Link to=""><NavDropdown.Item style={dropnavbar} eventKey="4.3">عنصر</NavDropdown.Item></Link>
+        <NavDropdown.Item style={dropnavbar} eventKey="4.1"  as={Link} to="/UsersList" >مستخدم</NavDropdown.Item>
+         <NavDropdown.Item style={dropnavbar} eventKey="4.2"  as={Link} to="/WareHouses">مخزن</NavDropdown.Item>
+
       </NavDropdown> <NavLink><img src={logo4}  /></NavLink>
     
-   <NavDropdown title={
+   <NavDropdown title={ 
 
 <span style={{color:'white'}}>اضافه</span>
     }
@@ -46,7 +46,7 @@ function AdminNavBar() {
         <NavDropdown.Item style={dropnavbar} eventKey="4.1"  as={Link} to="/NewUser">مستخدم</NavDropdown.Item>
        
         <NavDropdown.Item style={dropnavbar} eventKey="4.2" as={Link } to ="/Admin/NewWarehouse">مخزن</NavDropdown.Item>
-        <NavDropdown.Item style={dropnavbar} eventKey="4.3"  as={Link } to ="/Admin/NewItem" >عنصر</NavDropdown.Item>
+        
       </NavDropdown> <NavLink><img src={logo3}  /></NavLink>
       
     

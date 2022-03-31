@@ -1,7 +1,7 @@
 import React from 'react'
 import {Form,FormControl,FormGroup,FormLabel,Row,Col,Button, Container} from 'react-bootstrap'
 import logo1 from "./Path 666.svg"
-import AdminNavBar from '../pages/Admin/AdminNavBar'
+
 function NewWarehouse() {
 
     const inputstyle={
@@ -15,7 +15,7 @@ function NewWarehouse() {
     }
   return (
 <>
-<AdminNavBar></AdminNavBar>
+
 <h1 style={{textAlign:"center",marginTop:"5%"}}>مخزن جديد</h1>
 
 <Container fluid style={{padding:"5%"}}>
